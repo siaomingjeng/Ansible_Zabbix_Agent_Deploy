@@ -1,0 +1,9 @@
+---
+- hosts: ALL1
+  remote_user: root
+  gather_facts: Yes
+
+  tasks:
+    - name: 'debug'
+      debug: msg={{ (hostvars[ansible_host]["ansible_enp130s0f0.1150"]|default(hostvars[ansible_host]["ansible_enp130s0f0"]))["ipv4"]["address"] }}
+      #when: '"controller" in group_names or "compute" in group_names'

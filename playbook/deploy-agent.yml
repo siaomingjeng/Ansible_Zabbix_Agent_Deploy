@@ -1,0 +1,112 @@
+################  Function Introduction of the Playbook  ######################
+###:      yum repo installation  
+###:      yum install zabbix-agent zabbix-sender sysstat (iptables-services)
+###:      mkdir /etc/zabbix/scripts 
+###:      chmod 755, chown zabbix.zabbix
+###:      generate .conf   using template
+###:      add rules into iptables allow port 10050
+###:      SELinux open these two ports (ignored this time)
+###############################################################################
+
+---
+- hosts: ALL1        #specify a group of hosts to apply the following tasks.
+  remote_user: root
+  gather_facts: yes    #gather the infomation of remote host
+
+#  vars:                 #self-defined variables
+#  - server_ip: "10.0.194.40"     ##### Zabbix Server IP Address#####
+
+  tasks:
+  - name: "Install yum source repo of Zabbix 2.4(.8)!"    #For human reading
+    copy: src=zabbix.repo dest=/etc/yum.repos.d/ owner=root 
+
+  - name: "Install zabbix-agent using Yum!"
+    yum: name={{ item }} state=present
+    with_items:        #list the items to be installed in order
+    - zabbix-agent
+    - zabbix-sender
+    - sysstat
+    - iptables-services
+
+  - name: "Create folder: /etc/zabbix/scripts!" #this folder is used for storingzabbix scripts
+    file: path=/etc/zabbix/scripts owner=zabbix group=zabbix state=directory mode=0755 
+
+  - name: "Copy files: scripts and tmp files!"
+    copy: src={{ item.src }} dest=/etc/zabbix/scripts/ owner=zabbix group=zabbix mode={{ item.mode }}
+    with_items:
+    - {src: "scripts/",mode: "0755"}
+    - {src: "tmp/",mode: "0666"}
+
+  - name: "Prepare files for ceph!"
+    copy: src=ceph/ dest=/etc/zabbix/scripts/ owner=zabbix group=zabbix mode=0755
+    when: '"ceph1" in group_names or "ceph2" in group_names'
+
+  - name: "Configure Zabbix on OpenStack: /etc/zabbix/zabbix_agentd.conf"
+    template: src=template/zabbix_openstack_cnf.j2 dest=/etc/zabbix/zabbix_agentd.conf
+    when: '"{{ item }}" in group_names' 
+    with_items: [controller1, compute1, controller2, compute2]
+    notify:       #call 'handler' when needed
+    - restart zabbix-agent  # 'name' in 'handler'
+
+  - name: "Configure Zabbix on Ceph: /etc/zabbix/zabbix_agentd.conf"
+    template: src=template/zabbix_ceph_cnf.j2 dest=/etc/zabbix/zabbix_agentd.conf
+    when: '"ceph1" in group_names or "ceph2" in group_names'
+    notify:       #call 'handler' when needed
+    - restart zabbix-agent  # 'name' in 'handler'
+
+  - name: "Ensure zabbix-agent is running and enabled!"
+    service: name=zabbix-agent state=started enabled=yes
+
+###-------------configure ceph monitor daemon----------------------------
+  - name: "Copy systemctl service file to /lib/systemd/system!"
+    copy: src=services/zabbix-ceph.service dest=/lib/systemd/system/
+    when: '"mon1" in group_names'
+    notify:
+    - restart zabbix-ceph
+
+  - name: "Ensure ceph-mon is running and enabled!"
+    service: name=zabbix-ceph state=started enabled=yes
+    when: '"mon1" in group_names'
+
+##-------------Configure VM Monioring Daemon--------------------------
+  - name: "Copy zabbix-vm.service file to /lib/systemd/system/!"
+    copy: src={{ item.src }} dest={{ item.dest }} mode={{ item.mode }} owner={{ item.owner }} group={{ item.group }}
+    with_items:
+    - {src: services/zabbix-vm.service, dest: /lib/systemd/system/, mode: 644, owner: root, group: root}
+    - {src: zabbix_vmd, dest: /etc/zabbix/, mode: 755, owner: zabbix, group: zabbix}
+    when: '"compute1" in group_names'
+    notify:
+    - restart zabbix-vm
+
+  - name: "Ensure ceph-mon is running and enabled!"
+    service: name=zabbix-vm state=started enabled=yes
+    when: '"compute1" in group_names'
+
+
+##########  iptables: set pass for 10050 used by zabbix-agent  ##########
+
+  - name: check iptables about port 10050
+    shell: iptables -S |grep "\-A INPUT \-p tcp \-m tcp \-\-dport 10050 \-j ACCEPT"|wc -l
+    register: iptables_10050
+
+  - name: "For port 10050: iptables -I $opt -p tcp --dport $port -j ACCEPT!"
+    command: iptables -I {{ item[0].method }} -p {{ item[1] }} --{{ item[0].direct }}port 10050 -j ACCEPT
+    when: iptables_10050.stdout == '0'
+    with_nested:     #nested loops
+    - [{method: "INPUT", direct: d}, {method: "OUTPUT", direct: s} ]
+    - [ 'tcp' ]
+
+  - name: "Save iptables to /etc/sysconfig/iptables!"
+    shell: iptables-save > /etc/sysconfig/iptables
+    when: iptables_10050.stdout == '0'
+
+  - name: "Ensure iptables is running and enabled!"
+    service: name=iptables state=started enabled=yes
+
+  handlers:
+  - name: restart zabbix-agent
+    service: name=zabbix-agent state=restarted
+  - name: restart zabbix-ceph
+    service: name=zabbix-ceph state=restarted
+  - name: restart zabbix-vm
+    service: name=zabbix-vm state=restarted

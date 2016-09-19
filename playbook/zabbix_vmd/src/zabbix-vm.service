@@ -1,0 +1,15 @@
+[Unit]
+Description=Zabbix Virtual Machine Monitoring Daemond
+After=network.target remote-fs.target nss-lookup.target
+
+[Service]
+Type=forking
+PIDFile=/run/zabbix/zabbix_vmd.pid
+ExecStart=/etc/zabbix/zabbix_vmd/src/ZabbixVmD.py start
+ExecReload=/etc/zabbix/zabbix_vmd/src/ZabbixVmD.py restart
+ExecStop=/etc/zabbix/zabbix_vmd/src/ZabbixVmD.py stop
+KillSignal=SIGTERM
+#PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

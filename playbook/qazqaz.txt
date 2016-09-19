@@ -1,0 +1,1237 @@
+10.0.194.4 | SUCCESS => {
+    "ansible_facts": {
+        "ansible_all_ipv4_addresses": [
+            "110.76.187.5", 
+            "10.0.196.4", 
+            "10.0.192.13", 
+            "10.0.194.4", 
+            "10.0.204.4"
+        ], 
+        "ansible_all_ipv6_addresses": [
+            "fe80::7ea2:3eff:fe8d:3670", 
+            "fe80::7ea2:3eff:fee9:d710", 
+            "fe80::7ea2:3eff:fee9:d710", 
+            "fe80::7ea2:3eff:fe8d:3671", 
+            "fe80::7ea2:3eff:fee9:d719", 
+            "fe80::7ea2:3eff:fe8d:3670"
+        ], 
+        "ansible_architecture": "x86_64", 
+        "ansible_bios_date": "03/23/2015", 
+        "ansible_bios_version": "RMIBV505", 
+        "ansible_br_ex": {
+            "active": true, 
+            "device": "br-ex", 
+            "ipv4": {
+                "address": "110.76.187.5", 
+                "broadcast": "global", 
+                "netmask": "255.255.255.0", 
+                "network": "110.76.187.0"
+            }, 
+            "ipv6": [
+                {
+                    "address": "fe80::7ea2:3eff:fe8d:3670", 
+                    "prefix": "64", 
+                    "scope": "link"
+                }
+            ], 
+            "macaddress": "7c:a2:3e:8d:36:70", 
+            "mtu": 1500, 
+            "promisc": true, 
+            "type": "ether"
+        }, 
+        "ansible_br_int": {
+            "active": false, 
+            "device": "br-int", 
+            "macaddress": "92:37:be:37:da:49", 
+            "mtu": 1500, 
+            "promisc": true, 
+            "type": "ether"
+        }, 
+        "ansible_br_tun": {
+            "active": false, 
+            "device": "br-tun", 
+            "macaddress": "52:57:35:ba:d3:4a", 
+            "mtu": 1500, 
+            "promisc": true, 
+            "type": "ether"
+        }, 
+        "ansible_cmdline": {
+            "BOOT_IMAGE": "/vmlinuz-3.10.0-229.el7.x86_64", 
+            "LANG": "en_US.UTF-8", 
+            "crashkernel": "auto", 
+            "quiet": true, 
+            "rd.dm.uuid": "ddf1_4c53492020202020808627c3000000004711471100001450", 
+            "rd.lvm.lv": "centos/root", 
+            "rhgb": true, 
+            "ro": true, 
+            "root": "/dev/mapper/centos-root"
+        }, 
+        "ansible_date_time": {
+            "date": "2016-08-01", 
+            "day": "01", 
+            "epoch": "1470050400", 
+            "hour": "19", 
+            "iso8601": "2016-08-01T11:20:00Z", 
+            "iso8601_basic": "20160801T192000964674", 
+            "iso8601_basic_short": "20160801T192000", 
+            "iso8601_micro": "2016-08-01T11:20:00.964787Z", 
+            "minute": "20", 
+            "month": "08", 
+            "second": "00", 
+            "time": "19:20:00", 
+            "tz": "CST", 
+            "tz_offset": "+0800", 
+            "weekday": "Monday", 
+            "weekday_number": "1", 
+            "weeknumber": "31", 
+            "year": "2016"
+        }, 
+        "ansible_default_ipv4": {
+            "address": "110.76.187.5", 
+            "alias": "br-ex", 
+            "broadcast": "global", 
+            "gateway": "110.76.187.1", 
+            "interface": "br-ex", 
+            "macaddress": "7c:a2:3e:8d:36:70", 
+            "mtu": 1500, 
+            "netmask": "255.255.255.0", 
+            "network": "110.76.187.0", 
+            "type": "ether"
+        }, 
+        "ansible_default_ipv6": {}, 
+        "ansible_devices": {
+            "sda": {
+                "holders": [
+                    "ddf1_4c53492020202020808627c3000000004711471100001450"
+                ], 
+                "host": "RAID bus controller: Intel Corporation C600/X79 series chipset SATA RAID Controller (rev 06)", 
+                "model": "ST9500620NS", 
+                "partitions": {}, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "cfq", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdb": {
+                "holders": [
+                    "ddf1_4c53492020202020808627c3000000004711471100001450"
+                ], 
+                "host": "RAID bus controller: Intel Corporation C600/X79 series chipset SATA RAID Controller (rev 06)", 
+                "model": "ST9500620NS", 
+                "partitions": {}, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "cfq", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdc": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdc1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sdc2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdd": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdd1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sdd2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sde": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sde1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sde2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdf": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdf1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sdf2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdg": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdg1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sdg2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdh": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdh1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sdh2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdi": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdi1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sdi2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdj": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdj1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sdj2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdk": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdk1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sdk2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdl": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdl1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sdl2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdm": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdm1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sdm2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdn": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdn1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sdn2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdo": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdo1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sdo2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdp": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdp1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sdp2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdq": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdq1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sdq2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdr": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdr1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sdr2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sds": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sds1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sds2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdt": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdt1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sdt2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdu": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdu1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sdu2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdv": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdv1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sdv2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdw": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdw1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sdw2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdx": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdx1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sdx2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdy": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdy1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sdy2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdz": {
+                "holders": [], 
+                "host": "Serial Attached SCSI controller: LSI Logic / Symbios Logic SAS2308 PCI-Express Fusion-MPT SAS-2 (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdz1": {
+                        "sectors": "966285327", 
+                        "sectorsize": 512, 
+                        "size": "460.76 GB", 
+                        "start": "10487808"
+                    }, 
+                    "sdz2": {
+                        "sectors": "10483713", 
+                        "sectorsize": 512, 
+                        "size": "5.00 GB", 
+                        "start": "2048"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "scheduler_mode": "deadline", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }
+        }, 
+        "ansible_distribution": "CentOS", 
+        "ansible_distribution_major_version": "7", 
+        "ansible_distribution_release": "Core", 
+        "ansible_distribution_version": "7.1.1503", 
+        "ansible_dns": {}, 
+        "ansible_domain": "", 
+        "ansible_enp129s0f0": {
+            "active": false, 
+            "device": "enp129s0f0", 
+            "macaddress": "7c:a2:3e:e9:d7:18", 
+            "module": "ixgbe", 
+            "mtu": 1500, 
+            "pciid": "0000:81:00.0", 
+            "promisc": false, 
+            "type": "ether"
+        }, 
+        "ansible_enp129s0f1": {
+            "active": true, 
+            "device": "enp129s0f1", 
+            "macaddress": "7c:a2:3e:e9:d7:19", 
+            "module": "ixgbe", 
+            "mtu": 1500, 
+            "pciid": "0000:81:00.1", 
+            "promisc": false, 
+            "type": "ether"
+        }, 
+        "ansible_enp129s0f1.1250": {
+            "active": true, 
+            "device": "enp129s0f1.1250", 
+            "ipv4": {
+                "address": "10.0.204.4", 
+                "broadcast": "10.0.204.255", 
+                "netmask": "255.255.255.0", 
+                "network": "10.0.204.0"
+            }, 
+            "ipv6": [
+                {
+                    "address": "fe80::7ea2:3eff:fee9:d719", 
+                    "prefix": "64", 
+                    "scope": "link"
+                }
+            ], 
+            "macaddress": "7c:a2:3e:e9:d7:19", 
+            "mtu": 1500, 
+            "promisc": false, 
+            "type": "ether"
+        }, 
+        "ansible_enp130s0f0": {
+            "active": true, 
+            "device": "enp130s0f0", 
+            "macaddress": "7c:a2:3e:e9:d7:10", 
+            "module": "ixgbe", 
+            "mtu": 1500, 
+            "pciid": "0000:82:00.0", 
+            "promisc": false, 
+            "type": "ether"
+        }, 
+        "ansible_enp130s0f0.1150": {
+            "active": true, 
+            "device": "enp130s0f0.1150", 
+            "ipv4": {
+                "address": "10.0.192.13", 
+                "broadcast": "10.0.192.255", 
+                "netmask": "255.255.255.0", 
+                "network": "10.0.192.0"
+            }, 
+            "ipv6": [
+                {
+                    "address": "fe80::7ea2:3eff:fee9:d710", 
+                    "prefix": "64", 
+                    "scope": "link"
+                }
+            ], 
+            "macaddress": "7c:a2:3e:e9:d7:10", 
+            "mtu": 1500, 
+            "promisc": false, 
+            "type": "ether"
+        }, 
+        "ansible_enp130s0f0.1170": {
+            "active": true, 
+            "device": "enp130s0f0.1170", 
+            "ipv4": {
+                "address": "10.0.196.4", 
+                "broadcast": "10.0.196.255", 
+                "netmask": "255.255.255.0", 
+                "network": "10.0.196.0"
+            }, 
+            "ipv6": [
+                {
+                    "address": "fe80::7ea2:3eff:fee9:d710", 
+                    "prefix": "64", 
+                    "scope": "link"
+                }
+            ], 
+            "macaddress": "7c:a2:3e:e9:d7:10", 
+            "mtu": 1500, 
+            "promisc": false, 
+            "type": "ether"
+        }, 
+        "ansible_enp130s0f1": {
+            "active": false, 
+            "device": "enp130s0f1", 
+            "macaddress": "7c:a2:3e:e9:d7:11", 
+            "module": "ixgbe", 
+            "mtu": 1500, 
+            "pciid": "0000:82:00.1", 
+            "promisc": false, 
+            "type": "ether"
+        }, 
+        "ansible_enp1s0f0": {
+            "active": true, 
+            "device": "enp1s0f0", 
+            "macaddress": "7c:a2:3e:8d:36:70", 
+            "module": "tg3", 
+            "mtu": 1500, 
+            "pciid": "0000:01:00.0", 
+            "promisc": true, 
+            "type": "ether"
+        }, 
+        "ansible_enp1s0f0.210": {
+            "active": true, 
+            "device": "enp1s0f0.210", 
+            "ipv6": [
+                {
+                    "address": "fe80::7ea2:3eff:fe8d:3670", 
+                    "prefix": "64", 
+                    "scope": "link"
+                }
+            ], 
+            "macaddress": "7c:a2:3e:8d:36:70", 
+            "mtu": 1500, 
+            "promisc": true, 
+            "type": "ether"
+        }, 
+        "ansible_enp1s0f1": {
+            "active": true, 
+            "device": "enp1s0f1", 
+            "macaddress": "7c:a2:3e:8d:36:71", 
+            "module": "tg3", 
+            "mtu": 1500, 
+            "pciid": "0000:01:00.1", 
+            "promisc": false, 
+            "type": "ether"
+        }, 
+        "ansible_enp1s0f1.1151": {
+            "active": true, 
+            "device": "enp1s0f1.1151", 
+            "ipv4": {
+                "address": "10.0.194.4", 
+                "broadcast": "10.0.194.255", 
+                "netmask": "255.255.255.0", 
+                "network": "10.0.194.0"
+            }, 
+            "ipv6": [
+                {
+                    "address": "fe80::7ea2:3eff:fe8d:3671", 
+                    "prefix": "64", 
+                    "scope": "link"
+                }
+            ], 
+            "macaddress": "7c:a2:3e:8d:36:71", 
+            "mtu": 1500, 
+            "promisc": false, 
+            "type": "ether"
+        }, 
+        "ansible_enp1s0f2": {
+            "active": false, 
+            "device": "enp1s0f2", 
+            "macaddress": "7c:a2:3e:8d:36:72", 
+            "module": "tg3", 
+            "mtu": 1500, 
+            "pciid": "0000:01:00.2", 
+            "promisc": false, 
+            "type": "ether"
+        }, 
+        "ansible_enp1s0f3": {
+            "active": false, 
+            "device": "enp1s0f3", 
+            "macaddress": "7c:a2:3e:8d:36:73", 
+            "module": "tg3", 
+            "mtu": 1500, 
+            "pciid": "0000:01:00.3", 
+            "promisc": false, 
+            "type": "ether"
+        }, 
+        "ansible_env": {
+            "HOME": "/root", 
+            "LANG": "en_US.UTF-8", 
+            "LC_ALL": "en_US.UTF-8", 
+            "LC_MESSAGES": "en_US.UTF-8", 
+            "LESSOPEN": "||/usr/bin/lesspipe.sh %s", 
+            "LOGNAME": "root", 
+            "MAIL": "/var/mail/root", 
+            "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin", 
+            "PWD": "/root", 
+            "SHELL": "/bin/bash", 
+            "SHLVL": "2", 
+            "SSH_CLIENT": "10.0.194.2 38263 22", 
+            "SSH_CONNECTION": "10.0.194.2 38263 10.0.194.4 22", 
+            "SSH_TTY": "/dev/pts/0", 
+            "TERM": "xterm", 
+            "USER": "root", 
+            "XDG_RUNTIME_DIR": "/run/user/0", 
+            "XDG_SESSION_ID": "5725", 
+            "_": "/usr/bin/python"
+        }, 
+        "ansible_fips": false, 
+        "ansible_form_factor": "Main Server Chassis", 
+        "ansible_fqdn": "NMA06-301-G21-512-SEV-HR2288-003", 
+        "ansible_hostname": "NMA06-301-G21-512-SEV-HR2288-003", 
+        "ansible_ib0": {
+            "active": false, 
+            "device": "ib0", 
+            "macaddress": "80:00:00:48:fe:80:00:00:00:00:00:00:e4:1d:2d:03:00:75:4d:81", 
+            "module": "mlx4_core", 
+            "mtu": 4092, 
+            "pciid": "0000:05:00.0", 
+            "promisc": false
+        }, 
+        "ansible_interfaces": [
+            "enp129s0f1.1250", 
+            "enp1s0f3", 
+            "enp1s0f2", 
+            "enp1s0f1", 
+            "enp1s0f0", 
+            "br-tun", 
+            "lo", 
+            "ovs-system", 
+            "enp130s0f0.1150", 
+            "enp130s0f0", 
+            "br-int", 
+            "enp130s0f0.1170", 
+            "enp1s0f1.1151", 
+            "ib0", 
+            "enp130s0f1", 
+            "enp129s0f0", 
+            "enp129s0f1", 
+            "enp1s0f0.210", 
+            "br-ex"
+        ], 
+        "ansible_kernel": "3.10.0-229.el7.x86_64", 
+        "ansible_lo": {
+            "active": true, 
+            "device": "lo", 
+            "ipv4": {
+                "address": "127.0.0.1", 
+                "broadcast": "host", 
+                "netmask": "255.0.0.0", 
+                "network": "127.0.0.0"
+            }, 
+            "ipv6": [
+                {
+                    "address": "::1", 
+                    "prefix": "128", 
+                    "scope": "host"
+                }
+            ], 
+            "mtu": 65536, 
+            "promisc": false, 
+            "type": "loopback"
+        }, 
+        "ansible_lsb": {
+            "codename": "Core", 
+            "description": "CentOS Linux release 7.1.1503 (Core)", 
+            "id": "CentOS", 
+            "major_release": "7", 
+            "release": "7.1.1503"
+        }, 
+        "ansible_lvm": {
+            "lvs": {
+                "home": {
+                    "size_g": "410.18", 
+                    "vg": "centos"
+                }, 
+                "root": {
+                    "size_g": "50.00", 
+                    "vg": "centos"
+                }, 
+                "swap": {
+                    "size_g": "4.00", 
+                    "vg": "centos"
+                }
+            }, 
+            "vgs": {
+                "centos": {
+                    "free_g": "0.06", 
+                    "num_lvs": "3", 
+                    "num_pvs": "1", 
+                    "size_g": "464.24"
+                }
+            }
+        }, 
+        "ansible_machine": "x86_64", 
+        "ansible_machine_id": "2bd0c73adec54e91ab4615c58d182285", 
+        "ansible_memfree_mb": 74488, 
+        "ansible_memory_mb": {
+            "nocache": {
+                "free": 113716, 
+                "used": 15006
+            }, 
+            "real": {
+                "free": 74488, 
+                "total": 128722, 
+                "used": 54234
+            }, 
+            "swap": {
+                "cached": 0, 
+                "free": 4095, 
+                "total": 4095, 
+                "used": 0
+            }
+        }, 
+        "ansible_memtotal_mb": 128722, 
+        "ansible_mounts": [
+            {
+                "device": "/dev/mapper/centos-root", 
+                "fstype": "xfs", 
+                "mount": "/", 
+                "options": "rw,relatime,attr2,inode64,noquota", 
+                "size_available": 50635038720, 
+                "size_total": 53660876800, 
+                "uuid": "aab2ffe6-d1a4-46bc-9678-81ebd04c032e"
+            }, 
+            {
+                "device": "/dev/mapper/centos-home", 
+                "fstype": "xfs", 
+                "mount": "/home", 
+                "options": "rw,relatime,attr2,inode64,noquota", 
+                "size_available": 405921665024, 
+                "size_total": 440212033536, 
+                "uuid": "aee4e594-f71b-47f6-aff8-c089d260beec"
+            }, 
+            {
+                "device": "/dev/mapper/ddf1_4c53492020202020808627c3000000004711471100001450p1", 
+                "fstype": "xfs", 
+                "mount": "/boot", 
+                "options": "rw,relatime,attr2,inode64,noquota", 
+                "size_available": 389013504, 
+                "size_total": 520794112, 
+                "uuid": "59753195-bf35-40bf-8b32-4aaa0a9133b3"
+            }
+        ], 
+        "ansible_nodename": "NMA06-301-G21-512-SEV-HR2288-003", 
+        "ansible_os_family": "RedHat", 
+        "ansible_ovs_system": {
+            "active": false, 
+            "device": "ovs-system", 
+            "macaddress": "4a:f1:53:fb:52:fd", 
+            "mtu": 1500, 
+            "promisc": true, 
+            "type": "ether"
+        }, 
+        "ansible_pkg_mgr": "yum", 
+        "ansible_processor": [
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz"
+        ], 
+        "ansible_processor_cores": 8, 
+        "ansible_processor_count": 2, 
+        "ansible_processor_threads_per_core": 2, 
+        "ansible_processor_vcpus": 32, 
+        "ansible_product_name": "RH2288H V2-24S", 
+        "ansible_product_serial": "2102310QPE10F5000584", 
+        "ansible_product_uuid": "3B107CA0-002E-11E5-92DE-F488129697E0", 
+        "ansible_product_version": "V100R002", 
+        "ansible_python_version": "2.7.5", 
+        "ansible_selinux": {
+            "status": "disabled"
+        }, 
+        "ansible_service_mgr": "systemd", 
+        "ansible_ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBA/S7lUxUHlnAVQYxxzfqHPtFEH/akAZcTbtIHO1LGKG1nqs1FckMlVca31D/Eggcovh4iP/BzPZ7O2dDHQuhpg=", 
+        "ansible_ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAIAjyXQFrFSyZSu9DxsEWovqi8hil0pww8IZvNK1rSFaW", 
+        "ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABAQCj9tHRRI60RkCIAVSdxvLHZSWRoKOYk+DLv99pqo9T2LP8byuRVVpipPEHBt+D82lTzAIU7AeMugEHhyujHZYBjNTvGkTeebnhG/BV3CTdpY7Q4i2KbE5HhgTiOHMOk2bzj3w2qi2THL2DoLg+Ft2iVE9mcHPcbb2t/25mka4chfzlpGoECZRo1T3OGMICv/c+gHuhxZoFgRK+8MKjg4ODZ2+byuRZWv/Ntumj/aKCnSYtvebKrXETMkpMkfGc+WOcjiyHwnPmnqQDBxLw1AxfMRFSf4A98ib79qlX8iy0kLjR6kulJtZ87nr5JUDzXDgXYlZYxnfIuv7lkLZD7scR", 
+        "ansible_swapfree_mb": 4095, 
+        "ansible_swaptotal_mb": 4095, 
+        "ansible_system": "Linux", 
+        "ansible_system_vendor": "Huawei Technologies Co., Ltd.", 
+        "ansible_uptime_seconds": 9597240, 
+        "ansible_user_dir": "/root", 
+        "ansible_user_gecos": "root", 
+        "ansible_user_gid": 0, 
+        "ansible_user_id": "root", 
+        "ansible_user_shell": "/bin/bash", 
+        "ansible_user_uid": 0, 
+        "ansible_userspace_architecture": "x86_64", 
+        "ansible_userspace_bits": "64", 
+        "ansible_virtualization_role": "host", 
+        "ansible_virtualization_type": "kvm", 
+        "module_setup": true
+    }, 
+    "changed": false
+}

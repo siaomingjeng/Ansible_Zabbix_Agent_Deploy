@@ -1,0 +1,917 @@
+18:04:44 2016-Sep-18 Started-> VM Daemon starts with PID 1809051. 
+18:05:07 2016-Sep-18 Input Error!-> None 
+18:05:27 2016-Sep-18 SEND FAILED-> {"failed": 22, "chunk": 1, "total": 156, "processed": 134, "time": "0.001428"} 
+18:08:07 2016-Sep-18 Input Error!-> None 
+18:10:07 2016-Sep-18 Input Error!-> None 
+18:10:27 2016-Sep-18 Input Error!-> None 
+18:11:07 2016-Sep-18 Input Error!-> None 
+18:11:27 2016-Sep-18 SEND FAILED-> {"failed": 11, "chunk": 1, "total": 167, "processed": 156, "time": "0.001539"} 
+18:14:18 2016-Sep-18 Started-> VM Daemon starts with PID 1812991. 
+18:14:41 2016-Sep-18 Input Error!-> None 
+18:15:00 2016-Sep-18 Input Error!-> None 
+18:15:41 2016-Sep-18 Input Error!-> None 
+18:16:01 2016-Sep-18 Input Error!-> None 
+18:16:21 2016-Sep-18 Input Error!-> None 
+18:16:36 2016-Sep-18 Started-> VM Daemon starts with PID 1814340. 
+18:17:39 2016-Sep-18 Input Error!-> None 
+18:18:40 2016-Sep-18 Input Error!-> None 
+18:19:39 2016-Sep-18 Input Error!-> None 
+18:20:39 2016-Sep-18 Input Error!-> None 
+18:22:39 2016-Sep-18 Input Error!-> None 
+18:24:39 2016-Sep-18 Input Error!-> None 
+18:26:39 2016-Sep-18 Input Error!-> None 
+18:29:39 2016-Sep-18 Input Error!-> None 
+18:30:39 2016-Sep-18 Input Error!-> None 
+18:31:40 2016-Sep-18 Input Error!-> None 
+18:32:39 2016-Sep-18 Input Error!-> None 
+18:33:13 2016-Sep-18 Started-> VM Daemon starts with PID 1821261. 
+18:34:17 2016-Sep-18 Input Error!-> None 
+18:35:16 2016-Sep-18 Input Error!-> None 
+18:37:16 2016-Sep-18 Input Error!-> None 
+18:39:16 2016-Sep-18 Input Error!-> None 
+18:40:16 2016-Sep-18 Input Error!-> None 
+18:41:17 2016-Sep-18 Input Error!-> None 
+18:44:17 2016-Sep-18 Input Error!-> None 
+18:46:17 2016-Sep-18 Input Error!-> None 
+18:48:18 2016-Sep-18 Input Error!-> None 
+18:50:18 2016-Sep-18 Input Error!-> None 
+18:51:18 2016-Sep-18 Input Error!-> None 
+18:52:18 2016-Sep-18 Input Error!-> None 
+18:54:18 2016-Sep-18 Input Error!-> None 
+18:57:18 2016-Sep-18 Input Error!-> None 
+18:59:18 2016-Sep-18 Input Error!-> None 
+19:00:18 2016-Sep-18 Input Error!-> None 
+19:01:18 2016-Sep-18 Input Error!-> None 
+19:02:19 2016-Sep-18 Input Error!-> None 
+19:03:19 2016-Sep-18 Input Error!-> None 
+19:04:19 2016-Sep-18 Input Error!-> None 
+19:05:19 2016-Sep-18 Input Error!-> None 
+19:07:20 2016-Sep-18 Input Error!-> None 
+19:09:20 2016-Sep-18 Input Error!-> None 
+19:10:19 2016-Sep-18 Input Error!-> None 
+19:12:20 2016-Sep-18 Input Error!-> None 
+19:14:21 2016-Sep-18 Input Error!-> None 
+19:16:21 2016-Sep-18 Input Error!-> None 
+19:18:21 2016-Sep-18 Input Error!-> None 
+19:20:20 2016-Sep-18 Input Error!-> None 
+19:21:21 2016-Sep-18 Input Error!-> None 
+19:23:20 2016-Sep-18 Input Error!-> None 
+19:25:22 2016-Sep-18 Input Error!-> None 
+19:27:22 2016-Sep-18 Input Error!-> None 
+19:29:21 2016-Sep-18 Input Error!-> None 
+19:30:22 2016-Sep-18 Input Error!-> None 
+19:32:22 2016-Sep-18 Input Error!-> None 
+19:34:21 2016-Sep-18 Input Error!-> None 
+19:36:21 2016-Sep-18 Input Error!-> None 
+19:38:21 2016-Sep-18 Input Error!-> None 
+19:40:21 2016-Sep-18 Input Error!-> None 
+19:41:22 2016-Sep-18 Input Error!-> None 
+19:42:21 2016-Sep-18 Input Error!-> None 
+19:44:21 2016-Sep-18 Input Error!-> None 
+19:48:22 2016-Sep-18 Input Error!-> None 
+19:50:23 2016-Sep-18 Input Error!-> None 
+19:51:22 2016-Sep-18 Input Error!-> None 
+19:53:22 2016-Sep-18 Input Error!-> None 
+19:57:22 2016-Sep-18 Input Error!-> None 
+19:59:22 2016-Sep-18 Input Error!-> None 
+20:00:22 2016-Sep-18 Input Error!-> None 
+20:01:23 2016-Sep-18 Input Error!-> None 
+20:02:22 2016-Sep-18 Input Error!-> None 
+20:04:22 2016-Sep-18 Input Error!-> None 
+20:06:22 2016-Sep-18 Input Error!-> None 
+20:08:23 2016-Sep-18 Input Error!-> None 
+20:10:23 2016-Sep-18 Input Error!-> None 
+20:11:22 2016-Sep-18 Input Error!-> None 
+20:13:22 2016-Sep-18 Input Error!-> None 
+20:15:22 2016-Sep-18 Input Error!-> None 
+20:17:23 2016-Sep-18 Input Error!-> None 
+20:19:23 2016-Sep-18 Input Error!-> None 
+20:20:22 2016-Sep-18 Input Error!-> None 
+20:21:23 2016-Sep-18 Input Error!-> None 
+20:23:23 2016-Sep-18 Input Error!-> None 
+20:25:23 2016-Sep-18 Input Error!-> None 
+20:27:23 2016-Sep-18 Input Error!-> None 
+20:29:23 2016-Sep-18 Input Error!-> None 
+20:30:22 2016-Sep-18 Input Error!-> None 
+20:32:23 2016-Sep-18 Input Error!-> None 
+20:34:23 2016-Sep-18 Input Error!-> None 
+20:36:23 2016-Sep-18 Input Error!-> None 
+20:38:23 2016-Sep-18 Input Error!-> None 
+20:41:23 2016-Sep-18 Input Error!-> None 
+20:43:23 2016-Sep-18 Input Error!-> None 
+20:45:23 2016-Sep-18 Input Error!-> None 
+20:47:22 2016-Sep-18 Input Error!-> None 
+20:48:23 2016-Sep-18 Input Error!-> None 
+20:50:24 2016-Sep-18 Input Error!-> None 
+20:51:24 2016-Sep-18 Input Error!-> None 
+20:53:24 2016-Sep-18 Input Error!-> None 
+20:55:24 2016-Sep-18 Input Error!-> None 
+20:57:24 2016-Sep-18 Input Error!-> None 
+20:59:24 2016-Sep-18 Input Error!-> None 
+21:00:24 2016-Sep-18 Input Error!-> None 
+21:01:25 2016-Sep-18 Input Error!-> None 
+21:02:25 2016-Sep-18 Input Error!-> None 
+21:04:26 2016-Sep-18 Input Error!-> None 
+21:06:27 2016-Sep-18 Input Error!-> None 
+21:08:27 2016-Sep-18 Input Error!-> None 
+21:10:27 2016-Sep-18 Input Error!-> None 
+21:11:28 2016-Sep-18 Input Error!-> None 
+21:13:28 2016-Sep-18 Input Error!-> None 
+21:14:27 2016-Sep-18 Input Error!-> None 
+21:16:27 2016-Sep-18 Input Error!-> None 
+21:18:27 2016-Sep-18 Input Error!-> None 
+21:20:28 2016-Sep-18 Input Error!-> None 
+21:21:27 2016-Sep-18 Input Error!-> None 
+21:23:27 2016-Sep-18 Input Error!-> None 
+21:26:28 2016-Sep-18 Input Error!-> None 
+21:29:27 2016-Sep-18 Input Error!-> None 
+21:30:28 2016-Sep-18 Input Error!-> None 
+21:33:27 2016-Sep-18 Input Error!-> None 
+21:35:27 2016-Sep-18 Input Error!-> None 
+21:37:27 2016-Sep-18 Input Error!-> None 
+21:39:28 2016-Sep-18 Input Error!-> None 
+21:40:27 2016-Sep-18 Input Error!-> None 
+21:42:28 2016-Sep-18 Input Error!-> None 
+21:43:28 2016-Sep-18 Input Error!-> None 
+21:45:28 2016-Sep-18 Input Error!-> None 
+21:47:28 2016-Sep-18 Input Error!-> None 
+21:49:28 2016-Sep-18 Input Error!-> None 
+21:50:28 2016-Sep-18 Input Error!-> None 
+21:51:29 2016-Sep-18 Input Error!-> None 
+21:57:31 2016-Sep-18 Input Error!-> None 
+21:59:30 2016-Sep-18 Input Error!-> None 
+22:00:31 2016-Sep-18 Input Error!-> None 
+22:01:30 2016-Sep-18 Input Error!-> None 
+22:03:30 2016-Sep-18 Input Error!-> None 
+22:05:30 2016-Sep-18 Input Error!-> None 
+22:07:30 2016-Sep-18 Input Error!-> None 
+22:09:30 2016-Sep-18 Input Error!-> None 
+22:10:31 2016-Sep-18 Input Error!-> None 
+22:11:30 2016-Sep-18 Input Error!-> None 
+22:13:30 2016-Sep-18 Input Error!-> None 
+22:15:30 2016-Sep-18 Input Error!-> None 
+22:17:30 2016-Sep-18 Input Error!-> None 
+22:19:31 2016-Sep-18 Input Error!-> None 
+22:20:30 2016-Sep-18 Input Error!-> None 
+22:22:30 2016-Sep-18 Input Error!-> None 
+22:24:30 2016-Sep-18 Input Error!-> None 
+22:27:31 2016-Sep-18 Input Error!-> None 
+22:29:30 2016-Sep-18 Input Error!-> None 
+22:30:31 2016-Sep-18 Input Error!-> None 
+22:32:30 2016-Sep-18 Input Error!-> None 
+22:34:31 2016-Sep-18 Input Error!-> None 
+22:36:31 2016-Sep-18 Input Error!-> None 
+22:38:31 2016-Sep-18 Input Error!-> None 
+22:40:31 2016-Sep-18 Input Error!-> None 
+22:41:31 2016-Sep-18 Input Error!-> None 
+22:43:31 2016-Sep-18 Input Error!-> None 
+22:45:31 2016-Sep-18 Input Error!-> None 
+22:47:32 2016-Sep-18 Input Error!-> None 
+22:49:31 2016-Sep-18 Input Error!-> None 
+22:50:32 2016-Sep-18 Input Error!-> None 
+22:51:31 2016-Sep-18 Input Error!-> None 
+22:53:32 2016-Sep-18 Input Error!-> None 
+22:57:32 2016-Sep-18 Input Error!-> None 
+22:59:32 2016-Sep-18 Input Error!-> None 
+23:00:32 2016-Sep-18 Input Error!-> None 
+23:01:33 2016-Sep-18 Input Error!-> None 
+23:05:32 2016-Sep-18 Input Error!-> None 
+23:07:32 2016-Sep-18 Input Error!-> None 
+23:09:33 2016-Sep-18 Input Error!-> None 
+23:10:33 2016-Sep-18 Input Error!-> None 
+23:11:33 2016-Sep-18 Input Error!-> None 
+23:13:34 2016-Sep-18 Input Error!-> None 
+23:15:34 2016-Sep-18 Input Error!-> None 
+23:17:35 2016-Sep-18 Input Error!-> None 
+23:19:34 2016-Sep-18 Input Error!-> None 
+23:20:35 2016-Sep-18 Input Error!-> None 
+23:21:34 2016-Sep-18 Input Error!-> None 
+23:23:34 2016-Sep-18 Input Error!-> None 
+23:25:35 2016-Sep-18 Input Error!-> None 
+23:27:35 2016-Sep-18 Input Error!-> None 
+23:29:34 2016-Sep-18 Input Error!-> None 
+23:30:35 2016-Sep-18 Input Error!-> None 
+23:31:34 2016-Sep-18 Input Error!-> None 
+23:33:35 2016-Sep-18 Input Error!-> None 
+23:35:36 2016-Sep-18 Input Error!-> None 
+23:37:37 2016-Sep-18 Input Error!-> None 
+23:39:37 2016-Sep-18 Input Error!-> None 
+23:40:36 2016-Sep-18 Input Error!-> None 
+23:42:36 2016-Sep-18 Input Error!-> None 
+23:44:36 2016-Sep-18 Input Error!-> None 
+23:46:37 2016-Sep-18 Input Error!-> None 
+23:48:37 2016-Sep-18 Input Error!-> None 
+23:50:36 2016-Sep-18 Input Error!-> None 
+23:51:37 2016-Sep-18 Input Error!-> None 
+23:53:37 2016-Sep-18 Input Error!-> None 
+23:54:36 2016-Sep-18 Input Error!-> None 
+23:55:36 2016-Sep-18 Input Error!-> None 
+23:57:36 2016-Sep-18 Input Error!-> None 
+23:59:37 2016-Sep-18 Input Error!-> None 
+00:00:37 2016-Sep-19 Input Error!-> None 
+00:01:38 2016-Sep-19 Input Error!-> None 
+00:04:37 2016-Sep-19 Input Error!-> None 
+00:06:38 2016-Sep-19 Input Error!-> None 
+00:08:37 2016-Sep-19 Input Error!-> None 
+00:10:37 2016-Sep-19 Input Error!-> None 
+00:11:38 2016-Sep-19 Input Error!-> None 
+00:13:38 2016-Sep-19 Input Error!-> None 
+00:15:38 2016-Sep-19 Input Error!-> None 
+00:16:37 2016-Sep-19 Input Error!-> None 
+00:20:37 2016-Sep-19 Input Error!-> None 
+00:21:38 2016-Sep-19 Input Error!-> None 
+00:22:37 2016-Sep-19 Input Error!-> None 
+00:26:38 2016-Sep-19 Input Error!-> None 
+00:28:38 2016-Sep-19 Input Error!-> None 
+00:30:38 2016-Sep-19 Input Error!-> None 
+00:31:37 2016-Sep-19 Input Error!-> None 
+00:32:38 2016-Sep-19 Input Error!-> None 
+00:34:38 2016-Sep-19 Input Error!-> None 
+00:36:37 2016-Sep-19 Input Error!-> None 
+00:38:37 2016-Sep-19 Input Error!-> None 
+00:40:37 2016-Sep-19 Input Error!-> None 
+00:41:38 2016-Sep-19 Input Error!-> None 
+00:43:37 2016-Sep-19 Input Error!-> None 
+00:45:37 2016-Sep-19 Input Error!-> None 
+00:47:37 2016-Sep-19 Input Error!-> None 
+00:50:37 2016-Sep-19 Input Error!-> None 
+00:52:37 2016-Sep-19 Input Error!-> None 
+00:54:37 2016-Sep-19 Input Error!-> None 
+00:56:38 2016-Sep-19 Input Error!-> None 
+00:58:38 2016-Sep-19 Input Error!-> None 
+01:00:38 2016-Sep-19 Input Error!-> None 
+01:01:37 2016-Sep-19 Input Error!-> None 
+01:02:37 2016-Sep-19 Input Error!-> None 
+01:03:38 2016-Sep-19 Input Error!-> None 
+01:05:38 2016-Sep-19 Input Error!-> None 
+01:07:38 2016-Sep-19 Input Error!-> None 
+01:09:38 2016-Sep-19 Input Error!-> None 
+01:10:37 2016-Sep-19 Input Error!-> None 
+01:12:38 2016-Sep-19 Input Error!-> None 
+01:14:37 2016-Sep-19 Input Error!-> None 
+01:16:38 2016-Sep-19 Input Error!-> None 
+01:18:37 2016-Sep-19 Input Error!-> None 
+01:19:38 2016-Sep-19 Input Error!-> None 
+01:20:38 2016-Sep-19 Input Error!-> None 
+01:22:38 2016-Sep-19 Input Error!-> None 
+01:24:38 2016-Sep-19 Input Error!-> None 
+01:26:38 2016-Sep-19 Input Error!-> None 
+01:28:39 2016-Sep-19 Input Error!-> None 
+01:30:39 2016-Sep-19 Input Error!-> None 
+01:32:39 2016-Sep-19 Input Error!-> None 
+01:34:38 2016-Sep-19 Input Error!-> None 
+01:36:39 2016-Sep-19 Input Error!-> None 
+01:37:40 2016-Sep-19 Input Error!-> None 
+01:38:39 2016-Sep-19 Input Error!-> None 
+01:40:39 2016-Sep-19 Input Error!-> None 
+01:41:39 2016-Sep-19 Input Error!-> None 
+01:43:39 2016-Sep-19 Input Error!-> None 
+01:45:40 2016-Sep-19 Input Error!-> None 
+01:47:40 2016-Sep-19 Input Error!-> None 
+01:49:39 2016-Sep-19 Input Error!-> None 
+01:50:40 2016-Sep-19 Input Error!-> None 
+01:51:39 2016-Sep-19 Input Error!-> None 
+01:58:39 2016-Sep-19 Input Error!-> None 
+02:01:39 2016-Sep-19 Input Error!-> None 
+02:07:39 2016-Sep-19 Input Error!-> None 
+02:09:39 2016-Sep-19 Input Error!-> None 
+02:10:40 2016-Sep-19 Input Error!-> None 
+02:11:39 2016-Sep-19 Input Error!-> None 
+02:13:40 2016-Sep-19 Input Error!-> None 
+02:15:40 2016-Sep-19 Input Error!-> None 
+02:17:39 2016-Sep-19 Input Error!-> None 
+02:19:39 2016-Sep-19 Input Error!-> None 
+02:20:40 2016-Sep-19 Input Error!-> None 
+02:21:39 2016-Sep-19 Input Error!-> None 
+02:23:40 2016-Sep-19 Input Error!-> None 
+02:25:40 2016-Sep-19 Input Error!-> None 
+02:27:39 2016-Sep-19 Input Error!-> None 
+02:29:39 2016-Sep-19 Input Error!-> None 
+02:30:39 2016-Sep-19 Input Error!-> None 
+02:31:40 2016-Sep-19 Input Error!-> None 
+02:33:39 2016-Sep-19 Input Error!-> None 
+02:35:39 2016-Sep-19 Input Error!-> None 
+02:37:39 2016-Sep-19 Input Error!-> None 
+02:39:40 2016-Sep-19 Input Error!-> None 
+02:40:41 2016-Sep-19 Input Error!-> None 
+02:41:40 2016-Sep-19 Input Error!-> None 
+02:43:40 2016-Sep-19 Input Error!-> None 
+02:45:40 2016-Sep-19 Input Error!-> None 
+02:47:41 2016-Sep-19 Input Error!-> None 
+02:49:41 2016-Sep-19 Input Error!-> None 
+02:50:41 2016-Sep-19 Input Error!-> None 
+02:52:41 2016-Sep-19 Input Error!-> None 
+02:54:42 2016-Sep-19 Input Error!-> None 
+02:56:42 2016-Sep-19 Input Error!-> None 
+02:57:41 2016-Sep-19 Input Error!-> None 
+02:58:41 2016-Sep-19 Input Error!-> None 
+02:59:42 2016-Sep-19 Input Error!-> None 
+03:00:41 2016-Sep-19 Input Error!-> None 
+03:01:41 2016-Sep-19 Input Error!-> None 
+03:03:41 2016-Sep-19 Input Error!-> None 
+03:05:41 2016-Sep-19 Input Error!-> None 
+03:07:42 2016-Sep-19 Input Error!-> None 
+03:10:41 2016-Sep-19 Input Error!-> None 
+03:11:42 2016-Sep-19 Input Error!-> None 
+03:13:41 2016-Sep-19 Input Error!-> None 
+03:14:41 2016-Sep-19 Input Error!-> None 
+03:16:43 2016-Sep-19 Input Error!-> None 
+03:20:42 2016-Sep-19 Input Error!-> None 
+03:21:43 2016-Sep-19 Input Error!-> None 
+03:23:42 2016-Sep-19 Input Error!-> None 
+03:24:43 2016-Sep-19 Input Error!-> None 
+03:26:42 2016-Sep-19 Input Error!-> None 
+03:28:43 2016-Sep-19 Input Error!-> None 
+03:30:42 2016-Sep-19 Input Error!-> None 
+03:31:43 2016-Sep-19 Input Error!-> None 
+03:33:43 2016-Sep-19 Input Error!-> None 
+03:35:43 2016-Sep-19 Input Error!-> None 
+03:37:42 2016-Sep-19 Input Error!-> None 
+03:39:43 2016-Sep-19 Input Error!-> None 
+03:40:42 2016-Sep-19 Input Error!-> None 
+03:42:42 2016-Sep-19 Input Error!-> None 
+03:44:42 2016-Sep-19 Input Error!-> None 
+03:46:42 2016-Sep-19 Input Error!-> None 
+03:48:42 2016-Sep-19 Input Error!-> None 
+03:51:42 2016-Sep-19 Input Error!-> None 
+03:53:43 2016-Sep-19 Input Error!-> None 
+03:54:43 2016-Sep-19 Input Error!-> None 
+03:56:43 2016-Sep-19 Input Error!-> None 
+04:00:44 2016-Sep-19 Input Error!-> None 
+04:01:43 2016-Sep-19 Input Error!-> None 
+04:02:44 2016-Sep-19 Input Error!-> None 
+04:04:43 2016-Sep-19 Input Error!-> None 
+04:06:44 2016-Sep-19 Input Error!-> None 
+04:08:44 2016-Sep-19 Input Error!-> None 
+04:09:44 2016-Sep-19 Input Error!-> None 
+04:10:45 2016-Sep-19 Input Error!-> None 
+04:12:46 2016-Sep-19 Input Error!-> None 
+04:14:46 2016-Sep-19 Input Error!-> None 
+04:16:45 2016-Sep-19 Input Error!-> None 
+04:18:46 2016-Sep-19 Input Error!-> None 
+04:20:47 2016-Sep-19 Input Error!-> None 
+04:21:48 2016-Sep-19 Input Error!-> None 
+04:22:47 2016-Sep-19 Input Error!-> None 
+04:24:47 2016-Sep-19 Input Error!-> None 
+04:26:47 2016-Sep-19 Input Error!-> None 
+04:28:48 2016-Sep-19 Input Error!-> None 
+04:30:48 2016-Sep-19 Input Error!-> None 
+04:31:47 2016-Sep-19 Input Error!-> None 
+04:32:47 2016-Sep-19 Input Error!-> None 
+04:34:49 2016-Sep-19 Input Error!-> None 
+04:36:48 2016-Sep-19 Input Error!-> None 
+04:38:48 2016-Sep-19 Input Error!-> None 
+04:40:48 2016-Sep-19 Input Error!-> None 
+04:41:48 2016-Sep-19 Input Error!-> None 
+04:43:49 2016-Sep-19 Input Error!-> None 
+04:45:49 2016-Sep-19 Input Error!-> None 
+04:47:50 2016-Sep-19 Input Error!-> None 
+04:49:50 2016-Sep-19 Input Error!-> None 
+04:50:50 2016-Sep-19 Input Error!-> None 
+04:52:50 2016-Sep-19 Input Error!-> None 
+04:54:51 2016-Sep-19 Input Error!-> None 
+04:56:52 2016-Sep-19 Input Error!-> None 
+04:58:52 2016-Sep-19 Input Error!-> None 
+05:00:52 2016-Sep-19 Input Error!-> None 
+05:01:51 2016-Sep-19 Input Error!-> None 
+05:02:51 2016-Sep-19 Input Error!-> None 
+05:03:52 2016-Sep-19 Input Error!-> None 
+05:05:51 2016-Sep-19 Input Error!-> None 
+05:07:51 2016-Sep-19 Input Error!-> None 
+05:09:51 2016-Sep-19 Input Error!-> None 
+05:10:52 2016-Sep-19 Input Error!-> None 
+05:14:51 2016-Sep-19 Input Error!-> None 
+05:16:51 2016-Sep-19 Input Error!-> None 
+05:18:51 2016-Sep-19 Input Error!-> None 
+05:20:51 2016-Sep-19 Input Error!-> None 
+05:21:51 2016-Sep-19 Input Error!-> None 
+05:22:52 2016-Sep-19 Input Error!-> None 
+05:24:53 2016-Sep-19 Input Error!-> None 
+05:26:54 2016-Sep-19 Input Error!-> None 
+05:28:54 2016-Sep-19 Input Error!-> None 
+05:30:54 2016-Sep-19 Input Error!-> None 
+05:31:53 2016-Sep-19 Input Error!-> None 
+05:32:53 2016-Sep-19 Input Error!-> None 
+05:34:53 2016-Sep-19 Input Error!-> None 
+05:36:53 2016-Sep-19 Input Error!-> None 
+05:38:54 2016-Sep-19 Input Error!-> None 
+05:40:54 2016-Sep-19 Input Error!-> None 
+05:41:53 2016-Sep-19 Input Error!-> None 
+05:42:53 2016-Sep-19 Input Error!-> None 
+05:43:54 2016-Sep-19 Input Error!-> None 
+05:45:55 2016-Sep-19 Input Error!-> None 
+05:46:54 2016-Sep-19 Input Error!-> None 
+05:48:55 2016-Sep-19 Input Error!-> None 
+05:50:55 2016-Sep-19 Input Error!-> None 
+05:51:54 2016-Sep-19 Input Error!-> None 
+05:53:54 2016-Sep-19 Input Error!-> None 
+05:55:54 2016-Sep-19 Input Error!-> None 
+05:57:55 2016-Sep-19 Input Error!-> None 
+05:59:54 2016-Sep-19 Input Error!-> None 
+06:00:54 2016-Sep-19 Input Error!-> None 
+06:01:54 2016-Sep-19 Input Error!-> None 
+06:02:55 2016-Sep-19 Input Error!-> None 
+06:05:54 2016-Sep-19 Input Error!-> None 
+06:07:54 2016-Sep-19 Input Error!-> None 
+06:09:55 2016-Sep-19 Input Error!-> None 
+06:10:54 2016-Sep-19 Input Error!-> None 
+06:11:55 2016-Sep-19 Input Error!-> None 
+06:13:54 2016-Sep-19 Input Error!-> None 
+06:15:54 2016-Sep-19 Input Error!-> None 
+06:19:55 2016-Sep-19 Input Error!-> None 
+06:20:54 2016-Sep-19 Input Error!-> None 
+06:21:55 2016-Sep-19 Input Error!-> None 
+06:23:54 2016-Sep-19 Input Error!-> None 
+06:25:54 2016-Sep-19 Input Error!-> None 
+06:27:54 2016-Sep-19 Input Error!-> None 
+06:29:55 2016-Sep-19 Input Error!-> None 
+06:30:55 2016-Sep-19 Input Error!-> None 
+06:31:56 2016-Sep-19 Input Error!-> None 
+06:33:56 2016-Sep-19 Input Error!-> None 
+06:35:55 2016-Sep-19 Input Error!-> None 
+06:36:56 2016-Sep-19 Input Error!-> None 
+06:38:56 2016-Sep-19 Input Error!-> None 
+06:40:56 2016-Sep-19 Input Error!-> None 
+06:41:55 2016-Sep-19 Input Error!-> None 
+06:43:56 2016-Sep-19 Input Error!-> None 
+06:44:55 2016-Sep-19 Input Error!-> None 
+06:45:56 2016-Sep-19 Input Error!-> None 
+06:46:55 2016-Sep-19 Input Error!-> None 
+06:48:56 2016-Sep-19 Input Error!-> None 
+06:50:55 2016-Sep-19 Input Error!-> None 
+06:51:56 2016-Sep-19 Input Error!-> None 
+06:53:56 2016-Sep-19 Input Error!-> None 
+06:55:56 2016-Sep-19 Input Error!-> None 
+06:57:56 2016-Sep-19 Input Error!-> None 
+06:59:55 2016-Sep-19 Input Error!-> None 
+07:00:56 2016-Sep-19 Input Error!-> None 
+07:01:56 2016-Sep-19 Input Error!-> None 
+07:02:57 2016-Sep-19 Input Error!-> None 
+07:04:57 2016-Sep-19 Input Error!-> None 
+07:06:56 2016-Sep-19 Input Error!-> None 
+07:08:56 2016-Sep-19 Input Error!-> None 
+07:10:56 2016-Sep-19 Input Error!-> None 
+07:12:57 2016-Sep-19 Input Error!-> None 
+07:14:57 2016-Sep-19 Input Error!-> None 
+07:16:56 2016-Sep-19 Input Error!-> None 
+07:18:57 2016-Sep-19 Input Error!-> None 
+07:20:57 2016-Sep-19 Input Error!-> None 
+07:22:58 2016-Sep-19 Input Error!-> None 
+07:24:57 2016-Sep-19 Input Error!-> None 
+07:26:57 2016-Sep-19 Input Error!-> None 
+07:28:57 2016-Sep-19 Input Error!-> None 
+07:30:57 2016-Sep-19 Input Error!-> None 
+07:32:57 2016-Sep-19 Input Error!-> None 
+07:34:57 2016-Sep-19 Input Error!-> None 
+07:36:58 2016-Sep-19 Input Error!-> None 
+07:37:57 2016-Sep-19 Input Error!-> None 
+07:39:58 2016-Sep-19 Input Error!-> None 
+07:40:59 2016-Sep-19 Input Error!-> None 
+07:42:59 2016-Sep-19 Input Error!-> None 
+07:43:58 2016-Sep-19 Input Error!-> None 
+07:45:58 2016-Sep-19 Input Error!-> None 
+07:47:59 2016-Sep-19 Input Error!-> None 
+07:49:59 2016-Sep-19 Input Error!-> None 
+07:50:58 2016-Sep-19 Input Error!-> None 
+07:51:58 2016-Sep-19 Input Error!-> None 
+07:53:58 2016-Sep-19 Input Error!-> None 
+07:55:58 2016-Sep-19 Input Error!-> None 
+07:57:58 2016-Sep-19 Input Error!-> None 
+07:59:58 2016-Sep-19 Input Error!-> None 
+08:00:58 2016-Sep-19 Input Error!-> None 
+08:01:59 2016-Sep-19 Input Error!-> None 
+08:02:58 2016-Sep-19 Input Error!-> None 
+08:04:58 2016-Sep-19 Input Error!-> None 
+08:06:58 2016-Sep-19 Input Error!-> None 
+08:08:59 2016-Sep-19 Input Error!-> None 
+08:10:59 2016-Sep-19 Input Error!-> None 
+08:14:58 2016-Sep-19 Input Error!-> None 
+08:16:58 2016-Sep-19 Input Error!-> None 
+08:17:59 2016-Sep-19 Input Error!-> None 
+08:19:58 2016-Sep-19 Input Error!-> None 
+08:20:59 2016-Sep-19 Input Error!-> None 
+08:22:59 2016-Sep-19 Input Error!-> None 
+08:23:58 2016-Sep-19 Input Error!-> None 
+08:25:58 2016-Sep-19 Input Error!-> None 
+08:27:58 2016-Sep-19 Input Error!-> None 
+08:29:58 2016-Sep-19 Input Error!-> None 
+08:30:58 2016-Sep-19 Input Error!-> None 
+08:31:59 2016-Sep-19 Input Error!-> None 
+08:34:00 2016-Sep-19 Input Error!-> None 
+08:35:59 2016-Sep-19 Input Error!-> None 
+08:38:00 2016-Sep-19 Input Error!-> None 
+08:38:59 2016-Sep-19 Input Error!-> None 
+08:41:00 2016-Sep-19 Input Error!-> None 
+08:41:59 2016-Sep-19 Input Error!-> None 
+08:43:59 2016-Sep-19 Input Error!-> None 
+08:48:59 2016-Sep-19 Input Error!-> None 
+08:51:59 2016-Sep-19 Input Error!-> None 
+09:00:00 2016-Sep-19 Input Error!-> None 
+09:01:00 2016-Sep-19 Input Error!-> None 
+09:04:00 2016-Sep-19 Input Error!-> None 
+09:09:00 2016-Sep-19 Input Error!-> None 
+09:11:00 2016-Sep-19 Input Error!-> None 
+09:12:00 2016-Sep-19 Input Error!-> None 
+09:15:00 2016-Sep-19 Input Error!-> None 
+09:17:00 2016-Sep-19 Input Error!-> None 
+09:19:00 2016-Sep-19 Input Error!-> None 
+09:19:59 2016-Sep-19 Input Error!-> None 
+09:21:00 2016-Sep-19 Input Error!-> None 
+09:23:00 2016-Sep-19 Input Error!-> None 
+09:24:00 2016-Sep-19 Input Error!-> None 
+09:25:01 2016-Sep-19 Input Error!-> None 
+09:26:00 2016-Sep-19 Input Error!-> None 
+09:28:00 2016-Sep-19 Input Error!-> None 
+09:30:00 2016-Sep-19 Input Error!-> None 
+09:31:00 2016-Sep-19 Input Error!-> None 
+09:32:00 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 171, "processed": 167, "time": "0.001812"} 
+09:33:01 2016-Sep-19 Input Error!-> None 
+09:34:01 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 171, "processed": 167, "time": "0.001666"} 
+09:35:01 2016-Sep-19 Input Error!-> None 
+09:36:01 2016-Sep-19 Input Error!-> None 
+09:37:02 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 171, "processed": 167, "time": "0.001566"} 
+09:38:02 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 171, "processed": 167, "time": "0.001565"} 
+09:39:02 2016-Sep-19 Input Error!-> None 
+09:40:02 2016-Sep-19 Input Error!-> None 
+09:41:03 2016-Sep-19 Input Error!-> None 
+09:42:02 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 171, "processed": 167, "time": "0.001544"} 
+09:43:02 2016-Sep-19 Input Error!-> None 
+09:44:03 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 171, "processed": 167, "time": "0.001561"} 
+09:45:02 2016-Sep-19 Input Error!-> None 
+09:46:03 2016-Sep-19 Input Error!-> None 
+09:47:02 2016-Sep-19 Input Error!-> None 
+09:48:05 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 171, "processed": 167, "time": "0.001544"} 
+09:49:04 2016-Sep-19 Input Error!-> None 
+09:50:02 2016-Sep-19 Input Error!-> None 
+09:51:03 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 182, "processed": 178, "time": "0.001634"} 
+09:52:02 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 182, "processed": 178, "time": "0.001653"} 
+09:53:03 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 182, "processed": 178, "time": "0.001665"} 
+09:54:02 2016-Sep-19 Input Error!-> None 
+09:55:02 2016-Sep-19 Input Error!-> None 
+09:56:02 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 160, "processed": 156, "time": "0.001516"} 
+09:57:02 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 160, "processed": 156, "time": "0.001457"} 
+09:58:02 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 160, "processed": 156, "time": "0.001498"} 
+09:59:02 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 160, "processed": 156, "time": "0.001449"} 
+10:00:02 2016-Sep-19 Input Error!-> None 
+10:01:02 2016-Sep-19 Input Error!-> None 
+10:02:02 2016-Sep-19 Input Error!-> None 
+10:03:02 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 160, "processed": 156, "time": "0.001456"} 
+10:04:02 2016-Sep-19 Input Error!-> None 
+10:05:03 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 160, "processed": 156, "time": "0.001553"} 
+10:06:02 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 160, "processed": 156, "time": "0.001436"} 
+10:07:02 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 160, "processed": 156, "time": "0.001467"} 
+10:08:02 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 160, "processed": 156, "time": "0.001451"} 
+10:09:02 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 160, "processed": 156, "time": "0.001451"} 
+10:10:02 2016-Sep-19 Input Error!-> None 
+10:11:02 2016-Sep-19 Input Error!-> None 
+10:12:07 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 160, "processed": 156, "time": "0.001431"} 
+10:13:04 2016-Sep-19 Input Error!-> None 
+10:14:03 2016-Sep-19 Input Error!-> None 
+10:15:04 2016-Sep-19 Input Error!-> None 
+10:16:03 2016-Sep-19 Input Error!-> None 
+10:17:04 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 182, "processed": 178, "time": "0.001701"} 
+10:18:05 2016-Sep-19 Input Error!-> None 
+10:19:03 2016-Sep-19 SEND FAILED-> {"failed": 12, "chunk": 1, "total": 190, "processed": 178, "time": "0.001782"} 
+10:20:04 2016-Sep-19 Input Error!-> None 
+10:21:03 2016-Sep-19 Input Error!-> None 
+10:22:04 2016-Sep-19 SEND FAILED-> {"failed": 12, "chunk": 1, "total": 190, "processed": 178, "time": "0.001763"} 
+10:23:03 2016-Sep-19 Input Error!-> None 
+10:24:03 2016-Sep-19 Input Error!-> None 
+10:25:03 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 160, "processed": 156, "time": "0.001492"} 
+10:26:03 2016-Sep-19 Input Error!-> None 
+10:27:03 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 160, "processed": 156, "time": "0.001443"} 
+10:28:03 2016-Sep-19 Input Error!-> None 
+10:29:03 2016-Sep-19 Input Error!-> None 
+10:30:03 2016-Sep-19 Input Error!-> None 
+10:31:05 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 160, "processed": 156, "time": "0.001447"} 
+10:32:04 2016-Sep-19 Input Error!-> None 
+10:33:08 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 160, "processed": 156, "time": "0.001441"} 
+10:34:05 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 182, "processed": 178, "time": "0.001629"} 
+10:35:04 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 182, "processed": 178, "time": "0.001635"} 
+10:36:05 2016-Sep-19 Input Error!-> None 
+10:37:04 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 182, "processed": 178, "time": "0.001633"} 
+10:38:05 2016-Sep-19 Input Error!-> None 
+10:39:04 2016-Sep-19 Input Error!-> None 
+10:40:04 2016-Sep-19 Input Error!-> None 
+10:41:05 2016-Sep-19 Input Error!-> None 
+10:42:04 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 182, "processed": 178, "time": "0.001695"} 
+10:43:05 2016-Sep-19 SEND FAILED-> {"failed": 12, "chunk": 1, "total": 190, "processed": 178, "time": "0.001699"} 
+10:44:04 2016-Sep-19 SEND FAILED-> {"failed": 12, "chunk": 1, "total": 190, "processed": 178, "time": "0.001762"} 
+10:45:05 2016-Sep-19 Input Error!-> None 
+10:46:05 2016-Sep-19 SEND FAILED-> {"failed": 12, "chunk": 1, "total": 190, "processed": 178, "time": "0.001792"} 
+10:47:06 2016-Sep-19 SEND FAILED-> {"failed": 12, "chunk": 1, "total": 190, "processed": 178, "time": "0.001763"} 
+10:48:05 2016-Sep-19 Input Error!-> None 
+10:49:05 2016-Sep-19 Input Error!-> None 
+10:50:05 2016-Sep-19 Input Error!-> None 
+10:51:05 2016-Sep-19 Input Error!-> None 
+10:52:05 2016-Sep-19 Input Error!-> None 
+10:53:06 2016-Sep-19 Input Error!-> None 
+10:54:09 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 156, "processed": 152, "time": "0.001410"} 
+10:55:06 2016-Sep-19 Input Error!-> None 
+10:56:07 2016-Sep-19 Input Error!-> None 
+10:57:06 2016-Sep-19 Input Error!-> None 
+10:58:06 2016-Sep-19 Input Error!-> None 
+10:59:10 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 145, "processed": 141, "time": "0.001353"} 
+11:00:07 2016-Sep-19 Input Error!-> None 
+11:01:06 2016-Sep-19 Input Error!-> None 
+11:02:07 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 179, "processed": 175, "time": "0.001642"} 
+11:03:06 2016-Sep-19 Input Error!-> None 
+11:04:06 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 179, "processed": 175, "time": "0.001693"} 
+11:05:07 2016-Sep-19 Input Error!-> None 
+11:06:06 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 179, "processed": 175, "time": "0.001625"} 
+11:07:06 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 179, "processed": 175, "time": "0.004703"} 
+11:08:06 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 149, "processed": 145, "time": "0.001437"} 
+11:09:06 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 149, "processed": 145, "time": "0.001481"} 
+11:10:07 2016-Sep-19 Input Error!-> None 
+11:11:06 2016-Sep-19 Input Error!-> None 
+11:12:07 2016-Sep-19 Input Error!-> None 
+11:13:06 2016-Sep-19 Input Error!-> None 
+11:14:12 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 149, "processed": 145, "time": "0.001375"} 
+11:15:07 2016-Sep-19 Input Error!-> None 
+11:16:07 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001998"} 
+11:17:06 2016-Sep-19 Input Error!-> None 
+11:18:07 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 197, "processed": 193, "time": "0.002143"} 
+11:19:07 2016-Sep-19 Input Error!-> None 
+11:20:07 2016-Sep-19 Input Error!-> None 
+11:21:07 2016-Sep-19 Input Error!-> None 
+11:22:06 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 197, "processed": 193, "time": "0.002085"} 
+11:23:07 2016-Sep-19 Input Error!-> None 
+11:24:07 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.002219"} 
+11:25:07 2016-Sep-19 Input Error!-> None 
+11:26:06 2016-Sep-19 Input Error!-> None 
+11:27:07 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.002297"} 
+11:28:07 2016-Sep-19 Input Error!-> None 
+11:29:06 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.002204"} 
+11:30:07 2016-Sep-19 Input Error!-> None 
+11:31:06 2016-Sep-19 Input Error!-> None 
+11:32:07 2016-Sep-19 Input Error!-> None 
+11:33:08 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.002019"} 
+11:34:07 2016-Sep-19 Input Error!-> None 
+11:35:08 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.002152"} 
+11:36:09 2016-Sep-19 Input Error!-> None 
+11:37:08 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.002292"} 
+11:38:09 2016-Sep-19 Input Error!-> None 
+11:39:09 2016-Sep-19 Input Error!-> None 
+11:40:08 2016-Sep-19 Input Error!-> None 
+11:41:09 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.002099"} 
+11:42:10 2016-Sep-19 Input Error!-> None 
+11:43:09 2016-Sep-19 Input Error!-> None 
+11:44:10 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001791"} 
+11:45:10 2016-Sep-19 Input Error!-> None 
+11:46:09 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001996"} 
+11:47:10 2016-Sep-19 Input Error!-> None 
+11:48:09 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.002258"} 
+11:49:10 2016-Sep-19 Input Error!-> None 
+11:50:10 2016-Sep-19 Input Error!-> None 
+11:51:09 2016-Sep-19 Input Error!-> None 
+11:52:10 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.002089"} 
+11:53:10 2016-Sep-19 Input Error!-> None 
+11:54:09 2016-Sep-19 Input Error!-> None 
+11:55:10 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.002146"} 
+11:56:10 2016-Sep-19 Input Error!-> None 
+11:57:09 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001841"} 
+11:58:10 2016-Sep-19 Input Error!-> None 
+11:59:09 2016-Sep-19 Input Error!-> None 
+12:00:10 2016-Sep-19 Input Error!-> None 
+12:01:10 2016-Sep-19 Input Error!-> None 
+12:02:09 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.002208"} 
+12:03:10 2016-Sep-19 Input Error!-> None 
+12:04:09 2016-Sep-19 Input Error!-> None 
+12:05:10 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.002134"} 
+12:06:10 2016-Sep-19 Input Error!-> None 
+12:07:10 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001994"} 
+12:08:09 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001865"} 
+12:09:10 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001879"} 
+12:10:09 2016-Sep-19 Input Error!-> None 
+12:11:10 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001904"} 
+12:12:11 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001869"} 
+12:13:11 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001855"} 
+12:14:10 2016-Sep-19 Input Error!-> None 
+12:15:11 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001838"} 
+12:16:11 2016-Sep-19 Input Error!-> None 
+12:17:11 2016-Sep-19 Input Error!-> None 
+12:18:10 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001799"} 
+12:19:11 2016-Sep-19 Input Error!-> None 
+12:20:12 2016-Sep-19 Input Error!-> None 
+12:21:12 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001976"} 
+12:22:12 2016-Sep-19 Input Error!-> None 
+12:23:11 2016-Sep-19 Input Error!-> None 
+12:24:12 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.003065"} 
+12:25:12 2016-Sep-19 Input Error!-> None 
+12:26:11 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001863"} 
+12:27:12 2016-Sep-19 Input Error!-> None 
+12:28:12 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001812"} 
+12:29:12 2016-Sep-19 Input Error!-> None 
+12:30:11 2016-Sep-19 Input Error!-> None 
+12:31:12 2016-Sep-19 Input Error!-> None 
+12:32:11 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001847"} 
+12:33:12 2016-Sep-19 Input Error!-> None 
+12:34:12 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001857"} 
+12:35:12 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001885"} 
+12:36:11 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001869"} 
+12:37:12 2016-Sep-19 Input Error!-> None 
+12:38:13 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001891"} 
+12:39:13 2016-Sep-19 Input Error!-> None 
+12:40:12 2016-Sep-19 Input Error!-> None 
+12:41:13 2016-Sep-19 Input Error!-> None 
+12:42:13 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001884"} 
+12:43:12 2016-Sep-19 Input Error!-> None 
+12:44:13 2016-Sep-19 Input Error!-> None 
+12:45:13 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001871"} 
+12:46:12 2016-Sep-19 Input Error!-> None 
+12:47:13 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001830"} 
+12:48:13 2016-Sep-19 Input Error!-> None 
+12:49:13 2016-Sep-19 Input Error!-> None 
+12:50:12 2016-Sep-19 Input Error!-> None 
+12:51:13 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001910"} 
+12:52:13 2016-Sep-19 Input Error!-> None 
+12:53:12 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001869"} 
+12:54:13 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001900"} 
+12:55:13 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001845"} 
+12:56:13 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001815"} 
+12:57:12 2016-Sep-19 Input Error!-> None 
+12:58:13 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001868"} 
+12:59:14 2016-Sep-19 Input Error!-> None 
+13:00:13 2016-Sep-19 Input Error!-> None 
+13:01:14 2016-Sep-19 Input Error!-> None 
+13:02:14 2016-Sep-19 Input Error!-> None 
+13:03:13 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001874"} 
+13:04:14 2016-Sep-19 Input Error!-> None 
+13:05:14 2016-Sep-19 Input Error!-> None 
+13:06:13 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001966"} 
+13:07:14 2016-Sep-19 Input Error!-> None 
+13:08:14 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001815"} 
+13:09:13 2016-Sep-19 Input Error!-> None 
+13:10:14 2016-Sep-19 Input Error!-> None 
+13:11:14 2016-Sep-19 Input Error!-> None 
+13:12:13 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001806"} 
+13:13:14 2016-Sep-19 Input Error!-> None 
+13:14:13 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001793"} 
+13:15:14 2016-Sep-19 Input Error!-> None 
+13:16:14 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001858"} 
+13:17:13 2016-Sep-19 Input Error!-> None 
+13:18:14 2016-Sep-19 Input Error!-> None 
+13:19:14 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001893"} 
+13:20:13 2016-Sep-19 Input Error!-> None 
+13:21:14 2016-Sep-19 Input Error!-> None 
+13:22:14 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001822"} 
+13:23:13 2016-Sep-19 Input Error!-> None 
+13:24:14 2016-Sep-19 Input Error!-> None 
+13:25:13 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001939"} 
+13:26:14 2016-Sep-19 Input Error!-> None 
+13:27:14 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001948"} 
+13:28:13 2016-Sep-19 Input Error!-> None 
+13:29:14 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001885"} 
+13:30:13 2016-Sep-19 Input Error!-> None 
+13:31:14 2016-Sep-19 Input Error!-> None 
+13:32:14 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001824"} 
+13:33:14 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001859"} 
+13:34:13 2016-Sep-19 Input Error!-> None 
+13:35:14 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001822"} 
+13:36:14 2016-Sep-19 Input Error!-> None 
+13:37:13 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001867"} 
+13:38:14 2016-Sep-19 Input Error!-> None 
+13:39:13 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001813"} 
+13:40:14 2016-Sep-19 Input Error!-> None 
+13:41:14 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001887"} 
+13:42:13 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001790"} 
+13:43:14 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001892"} 
+13:44:14 2016-Sep-19 Input Error!-> None 
+13:45:13 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001843"} 
+13:46:14 2016-Sep-19 Input Error!-> None 
+13:47:14 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001820"} 
+13:48:13 2016-Sep-19 Input Error!-> None 
+13:49:14 2016-Sep-19 Input Error!-> None 
+13:50:15 2016-Sep-19 Input Error!-> None 
+13:51:14 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001812"} 
+13:52:15 2016-Sep-19 Input Error!-> None 
+13:53:16 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001864"} 
+13:54:16 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 186, "processed": 182, "time": "0.001695"} 
+13:55:15 2016-Sep-19 Input Error!-> None 
+13:56:16 2016-Sep-19 Input Error!-> None 
+13:57:18 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 186, "processed": 182, "time": "0.001680"} 
+13:58:15 2016-Sep-19 Input Error!-> None 
+13:59:16 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.003100"} 
+14:00:16 2016-Sep-19 Input Error!-> None 
+14:01:16 2016-Sep-19 Input Error!-> None 
+14:02:15 2016-Sep-19 Input Error!-> None 
+14:03:16 2016-Sep-19 Input Error!-> None 
+14:04:16 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001822"} 
+14:05:15 2016-Sep-19 Input Error!-> None 
+14:06:16 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001823"} 
+14:07:15 2016-Sep-19 Input Error!-> None 
+14:08:16 2016-Sep-19 Input Error!-> None 
+14:09:16 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001803"} 
+14:10:16 2016-Sep-19 Input Error!-> None 
+14:11:15 2016-Sep-19 Input Error!-> None 
+14:12:16 2016-Sep-19 Input Error!-> None 
+14:13:16 2016-Sep-19 Input Error!-> None 
+14:14:16 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001882"} 
+14:15:15 2016-Sep-19 Input Error!-> None 
+14:16:16 2016-Sep-19 Input Error!-> None 
+14:17:16 2016-Sep-19 Input Error!-> None 
+14:18:16 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001799"} 
+14:19:15 2016-Sep-19 Input Error!-> None 
+14:20:16 2016-Sep-19 Input Error!-> None 
+14:21:16 2016-Sep-19 Input Error!-> None 
+14:22:16 2016-Sep-19 Input Error!-> None 
+14:23:16 2016-Sep-19 Input Error!-> None 
+14:24:15 2016-Sep-19 Input Error!-> None 
+14:25:19 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 201, "processed": 197, "time": "0.001926"} 
+14:26:16 2016-Sep-19 Input Error!-> None 
+14:27:15 2016-Sep-19 Input Error!-> None 
+14:28:16 2016-Sep-19 Input Error!-> None 
+14:29:20 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 182, "processed": 178, "time": "0.001652"} 
+14:30:16 2016-Sep-19 Input Error!-> None 
+14:31:16 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 204, "processed": 200, "time": "0.001884"} 
+14:32:16 2016-Sep-19 Input Error!-> None 
+14:33:16 2016-Sep-19 Input Error!-> None 
+14:34:16 2016-Sep-19 Input Error!-> None 
+14:35:15 2016-Sep-19 SEND FAILED-> {"failed": 8, "chunk": 1, "total": 208, "processed": 200, "time": "0.001892"} 
+14:36:16 2016-Sep-19 Input Error!-> None 
+14:37:17 2016-Sep-19 Input Error!-> None 
+14:38:17 2016-Sep-19 SEND FAILED-> {"failed": 8, "chunk": 1, "total": 208, "processed": 200, "time": "0.001866"} 
+14:39:17 2016-Sep-19 Input Error!-> None 
+14:40:17 2016-Sep-19 Input Error!-> None 
+14:41:17 2016-Sep-19 SEND FAILED-> {"failed": 8, "chunk": 1, "total": 208, "processed": 200, "time": "0.001968"} 
+14:42:17 2016-Sep-19 Input Error!-> None 
+14:43:17 2016-Sep-19 SEND FAILED-> {"failed": 8, "chunk": 1, "total": 208, "processed": 200, "time": "0.001882"} 
+14:44:17 2016-Sep-19 SEND FAILED-> {"failed": 8, "chunk": 1, "total": 208, "processed": 200, "time": "0.001895"} 
+14:45:17 2016-Sep-19 Input Error!-> None 
+14:46:17 2016-Sep-19 Input Error!-> None 
+14:47:16 2016-Sep-19 Input Error!-> None 
+14:48:17 2016-Sep-19 Input Error!-> None 
+14:49:18 2016-Sep-19 Input Error!-> None 
+14:50:18 2016-Sep-19 Input Error!-> None 
+14:51:23 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 182, "processed": 178, "time": "0.001657"} 
+14:52:17 2016-Sep-19 Input Error!-> None 
+14:53:18 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 212, "processed": 208, "time": "0.002239"} 
+14:54:20 2016-Sep-19 Input Error!-> None 
+14:55:18 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 212, "processed": 208, "time": "0.001956"} 
+14:56:19 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 212, "processed": 208, "time": "0.001918"} 
+14:57:19 2016-Sep-19 Input Error!-> None 
+14:58:19 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 212, "processed": 208, "time": "0.001941"} 
+14:59:19 2016-Sep-19 Input Error!-> None 
+15:00:19 2016-Sep-19 Input Error!-> None 
+15:01:19 2016-Sep-19 Input Error!-> None 
+15:02:19 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 212, "processed": 208, "time": "0.001986"} 
+15:03:18 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 212, "processed": 208, "time": "0.001926"} 
+15:04:19 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 212, "processed": 208, "time": "0.002096"} 
+15:05:19 2016-Sep-19 Input Error!-> None 
+15:06:19 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 212, "processed": 208, "time": "0.001911"} 
+15:07:19 2016-Sep-19 Input Error!-> None 
+15:08:19 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 212, "processed": 208, "time": "0.001982"} 
+15:09:19 2016-Sep-19 Input Error!-> None 
+15:10:19 2016-Sep-19 Input Error!-> None 
+15:11:19 2016-Sep-19 Input Error!-> None 
+15:12:18 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 212, "processed": 208, "time": "0.002262"} 
+15:13:19 2016-Sep-19 Input Error!-> None 
+15:14:19 2016-Sep-19 Input Error!-> None 
+15:15:19 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 212, "processed": 208, "time": "0.001905"} 
+15:16:19 2016-Sep-19 Input Error!-> None 
+15:17:19 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 212, "processed": 208, "time": "0.001939"} 
+15:18:19 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 212, "processed": 208, "time": "0.001894"} 
+15:19:19 2016-Sep-19 Input Error!-> None 
+15:20:19 2016-Sep-19 Input Error!-> None 
+15:21:19 2016-Sep-19 Input Error!-> None 
+15:22:19 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 212, "processed": 208, "time": "0.002106"} 
+15:23:19 2016-Sep-19 Input Error!-> None 
+15:24:19 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 212, "processed": 208, "time": "0.001901"} 
+15:25:19 2016-Sep-19 Input Error!-> None 
+15:26:19 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 212, "processed": 208, "time": "0.001924"} 
+15:27:19 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 212, "processed": 208, "time": "0.001949"} 
+15:28:19 2016-Sep-19 Input Error!-> None 
+15:29:18 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 212, "processed": 208, "time": "0.001941"} 
+15:30:19 2016-Sep-19 Input Error!-> None 
+15:31:20 2016-Sep-19 Input Error!-> None 
+15:32:20 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 212, "processed": 208, "time": "0.001935"} 
+15:33:20 2016-Sep-19 Input Error!-> None 
+15:34:19 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 182, "processed": 178, "time": "0.001623"} 
+15:35:20 2016-Sep-19 Input Error!-> None 
+15:36:19 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 182, "processed": 178, "time": "0.001684"} 
+15:37:20 2016-Sep-19 Input Error!-> None 
+15:38:20 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 182, "processed": 178, "time": "0.001670"} 
+15:39:19 2016-Sep-19 Input Error!-> None 
+15:40:20 2016-Sep-19 Input Error!-> None 
+15:41:21 2016-Sep-19 Input Error!-> None 
+15:42:21 2016-Sep-19 Input Error!-> None 
+15:43:20 2016-Sep-19 Input Error!-> None 
+15:44:21 2016-Sep-19 Input Error!-> None 
+15:45:21 2016-Sep-19 Input Error!-> None 
+15:46:21 2016-Sep-19 Input Error!-> None 
+15:47:25 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 182, "processed": 178, "time": "0.001646"} 
+15:48:21 2016-Sep-19 Input Error!-> None 
+15:49:21 2016-Sep-19 Input Error!-> None 
+15:50:20 2016-Sep-19 Input Error!-> None 
+15:51:21 2016-Sep-19 Input Error!-> None 
+15:52:21 2016-Sep-19 Input Error!-> None 
+15:53:21 2016-Sep-19 Input Error!-> None 
+15:54:21 2016-Sep-19 Input Error!-> None 
+15:55:21 2016-Sep-19 Input Error!-> None 
+15:56:25 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 182, "processed": 178, "time": "0.001686"} 
+15:57:21 2016-Sep-19 Input Error!-> None 
+15:58:20 2016-Sep-19 Input Error!-> None 
+15:59:21 2016-Sep-19 Input Error!-> None 
+16:00:21 2016-Sep-19 Input Error!-> None 
+16:01:21 2016-Sep-19 Input Error!-> None 
+16:02:25 2016-Sep-19 SEND FAILED-> {"failed": 4, "chunk": 1, "total": 182, "processed": 178, "time": "0.001955"} 
